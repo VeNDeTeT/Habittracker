@@ -8,7 +8,7 @@ __pycache__/
 *.py[cod]
 *$py.class
 
-# IDE (PyCharm, VSCode и др.)
+# IDE
 .idea/
 .vscode/
 *.swp
@@ -18,25 +18,41 @@ __pycache__/
 .env
 *.env
 
-# База данных (если локальная SQLite)
+# База данных
 db.sqlite3
+*.sqlite3
+*.db
 
 # Логи
 *.log
 logs/
 
+# Тесты и качество кода
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+
 # Скомпилированные/временные файлы
 *.egg-info/
 dist/
 build/
-.coverage
-htmlcov/
 .cache/
 .tox/
 
-# Статические/медиа (если собираются отдельно)
+# Celery
+celerybeat-schedule
+celerybeat-schedule.*
+
+# Статические/медиа
 staticfiles/
 media/
+
+# Локализация
+*.mo
+*.pot
 
 # OS
 .DS_Store
