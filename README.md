@@ -87,3 +87,5 @@ docker compose exec backend python manage.py collectstatic --noinput
 
 ### Схема взаимодействия:
 
+
+<!-- Домашнее задание: Контейнеризация и CI/CD выполнено 01.05.2026 -->
